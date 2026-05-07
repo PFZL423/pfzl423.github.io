@@ -29,6 +29,7 @@ theme:
 nav:
   - Home: index.md
   - About: about.md
+  - Roadmap: roadmap.md
   - Notes:
       - Embodied AI: notes/embodied-ai.md
       - Model-Based RL: notes/model-based-rl.md

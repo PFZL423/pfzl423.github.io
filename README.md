@@ -1,5 +1,3 @@
-# PFZL423.github.io
-my pages
 # PFZL423                                                                                                                             
    
   Undergraduate researcher working on **model-based reinforcement                                                                       

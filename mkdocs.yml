@@ -1,9 +1,11 @@
-# 建议替换或更新 mkdocs.yml 中的相应部分
+site_name: PFZL423
+site_description: Latent World Models for Embodied AI
+site_author: PFZL423
+
 theme:
   name: material
-  language: zh  # 改为中文界面
+  language: zh 
   palette:
-    # 自动切换深浅模式，使用更沉稳的配色
     - scheme: default
       primary: white
       accent: indigo
@@ -17,19 +19,36 @@ theme:
         icon: material/brightness-4
         name: 切换到亮色模式
   features:
-    - navigation.tabs          # 顶部菜单栏
-    - navigation.sections      # 侧边栏分块
-    - navigation.top           # 回到顶部按钮
-    - navigation.tracking      # 锚点跟踪
-    - content.code.copy        # 代码复制按钮
-    - navigation.path          # 面包屑导航
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - content.code.copy
+    - navigation.path
 
-# 增加社交链接，放在页面底部，增加学术专业感
+nav:
+  - Home: index.md
+  - About: about.md
+  - Notes:
+      - Embodied AI: notes/embodied-ai.md
+      - Model-Based RL: notes/model-based-rl.md
+      - Latent World Models: notes/latent-world-models.md
+  - Projects:
+      - CILD: projects/cild.md
+  - Papers:
+      - TD-MPC2: papers/td-mpc2.md
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/PFZL423
-    - icon: fontawesome/graduated-cap # 如果有 Google Scholar
-      link: https://scholar.google.com/
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/

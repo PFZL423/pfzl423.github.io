@@ -1,6 +1,7 @@
 site_name: PFZL423
 site_description: Latent World Models for Embodied AI
 site_author: PFZL423
+site_url: https://pfzl423.github.io/
 
 theme:
   name: material

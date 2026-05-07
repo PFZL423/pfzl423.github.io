@@ -1,0 +1,50 @@
+site_name: PFZL423
+site_description: Latent World Models for Embodied AI
+site_author: PFZL423
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: black
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Notes:
+      - Embodied AI: notes/embodied-ai.md
+      - Model-Based RL: notes/model-based-rl.md
+      - Latent World Models: notes/latent-world-models.md
+  - Projects:
+      - CILD: projects/cild.md
+  - Papers:
+      - TD-MPC2: papers/td-mpc2.md
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+

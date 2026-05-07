@@ -1,0 +1,36 @@
+.hero {
+  padding: 3rem 2rem;
+  margin: 1rem 0 2rem;
+  border-radius: 1.5rem;
+  background:
+    radial-gradient(circle at top left, rgba(124, 58, 237, 0.22), transparent 32rem),
+    linear-gradient(135deg, rgba(15, 23, 42, 0.96), rgba(30, 41, 59, 0.96));
+  color: white;
+}
+
+.hero h1 {
+  max-width: 780px;
+  margin-top: 0.5rem;
+  font-size: 2.4rem;
+  line-height: 1.15;
+  font-weight: 800;
+}
+
+.hero p {
+  max-width: 760px;
+  font-size: 1rem;
+}
+
+.hero-subtitle {
+  margin: 0;
+  color: #c4b5fd;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.md-typeset .grid.cards > ul > li {
+  border-radius: 1rem;
+}
+

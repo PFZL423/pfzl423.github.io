@@ -1,0 +1,45 @@
+/* 建议替换 docs/stylesheets/extra.css 中的内容 */
+
+/* 优化主页 Hero 部分，使其更像论文首页或实验室页面 */
+.hero {
+  padding: 4rem 1rem;
+  margin: 0 0 2rem;
+  background: none; /* 去掉复杂的渐变 */
+  border-bottom: 1px solid var(--md-typeset-table-color); /* 添加细分割线 */
+  color: var(--md-typeset-color);
+  text-align: left;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--md-typeset-color);
+  margin-bottom: 0.5rem;
+}
+
+.hero-subtitle {
+  color: var(--md-primary-fg-color); /* 使用主题主色调 */
+  font-family: 'JetBrains Mono', 'Roboto Mono', monospace;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+/* 优化卡片布局，使其更简洁 */
+.md-typeset .grid.cards > ul > li {
+  border: 1px solid var(--md-typeset-table-color);
+  box-shadow: none;
+  transition: border-color 0.3s;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: var(--md-primary-fg-color);
+  background-color: var(--md-primary-fg-color--transparent);
+}
+
+/* 提高阅读体验的字体设置 */
+.md-typeset {
+  font-size: 0.85rem;
+  line-height: 1.6;
+}

@@ -3,23 +3,20 @@
 <div class="hero">
   <p class="hero-subtitle">Model-Based RL · Latent World Models · Embodied AI</p>
 
-  <h1>Learning latent world models for embodied decision-making.</h1>
+  <h1>Building latent world models for embodied decision-making.</h1>
 
   <p>
-    Undergraduate researcher working on model-based reinforcement learning,
-    latent world models, and embodied agents.
+    Undergraduate student at Shanghai Jiao Tong University focusing on model-based reinforcement learning, latent world models, and embodied agents.
   </p>
 </div>
 
 ---
 
-## Research Focus
+## Research Vision
 
-I am interested in building latent world models that are useful not only for
-prediction, but also for planning, control, and cost-aware decision-making.
+I am interested in building latent world models that are useful not only for prediction, but also for planning, control, and cost-aware decision-making. 
 
-My long-term goal is to build latent world models that are structurally aware
-of the planning problems they serve.
+My long-term goal is to develop world models that are structurally aware of the planning problems they serve, enabling more efficient and robust embodied intelligence.
 
 ---
 
@@ -29,32 +26,31 @@ of the planning problems they serve.
 
 -   **Latent Dynamics Models**
 
-    Learning compact world models for control and planning.
+    Learning compact world models optimized for control and planning.
 
--   **Model-Based Reinforcement Learning**
+-   **Model-Based RL**
 
-    Using learned models to improve decision-making in embodied environments.
+    Using learned models to improve decision-making efficiency in embodied environments.
 
--   **Cost-Aware Representation Learning**
+-   **Cost-Aware Representation**
 
-    Connecting learned representations with downstream planning objectives.
+    Connecting learned representations directly with downstream planning objectives and cost structures.
 
--   **Embodied Decision-Making**
+-   **Embodied AI**
 
-    Studying agents that perceive, plan, act, and adapt through interaction.
+    Studying agents that perceive, plan, and act through interaction with physical or simulated environments.
 
 </div>
 
 ---
 
-## Current Project
+## Projects
 
 ### CILD — Cost-Informed Latent Dynamics
 
-CILD is an ongoing project built on top of TD-MPC2.
+CILD is an ongoing project built on top of TD-MPC2. 
 
-The project couples representation learning with planner-aware cost heads,
-with the goal of making latent world models more useful for downstream control.
+The project explores coupling representation learning with planner-aware cost heads. The objective is to ensure that latent dynamics models capture information that is most relevant for downstream control tasks.
 
 [Read more →](projects/cild.md)
 
@@ -62,19 +58,15 @@ with the goal of making latent world models more useful for downstream control.
 
 ## Writing
 
-Coming soon.
+*Selected notes and technical thoughts (coming soon):*
 
-Planned notes:
-
-- Notes on TD-MPC2
-- What makes a world model useful for planning?
-- Cost-aware latent dynamics
-- Model-based RL for embodied agents
-- Embodied AI learning roadmap
+- **Notes on TD-MPC2**
+- **What makes a world model useful for planning?**
+- **Cost-aware latent dynamics**
+- **Embodied AI learning roadmap**
 
 ---
 
 ## Contact
 
-- GitHub: [@PFZL423](https://github.com/PFZL423)
-
+- **GitHub**: [@PFZL423](https://github.com/PFZL423)

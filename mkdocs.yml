@@ -39,6 +39,7 @@ nav:
       - CILD: projects/cild.md
   - Papers:
       - TD-MPC2: papers/td-mpc2.md
+      - SafeDreamer: papers/safedreamer.md
 
 extra_css:
   - stylesheets/extra.css
